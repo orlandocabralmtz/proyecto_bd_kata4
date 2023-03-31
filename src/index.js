@@ -1,3 +1,4 @@
+//aquí solo arranca el servidor
 // se utilizará la aplicación creada en app.js
 // se hace la importación 
 import app from "./app";
