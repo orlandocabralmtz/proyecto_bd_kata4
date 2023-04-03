@@ -9,10 +9,11 @@ const app = express();
 
 // Settings
 // el puerto en donde se ejecutará el servidor.  localhost:3000
-app.set("port", 4000);
+app.set("port", 3000);
 
 // Middlewares
 app.use(morgan("dev"));
+app.use(express.json())
 
 //Routes   ---- uso las rutas desde mi app
 app.use("/api/languages", languageRoutes)  //especificamos la ruta principal de la apo
